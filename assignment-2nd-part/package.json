@@ -1,0 +1,15 @@
+{
+  "name": "Mongodb-Assignment-21.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.10"
+  }
+}

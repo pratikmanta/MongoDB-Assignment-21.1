@@ -1,0 +1,96 @@
+
+// copy of database values
+db.employees.insertMany(
+[
+    {
+        "Ename" : "John",
+        "department" : "clerical staff",
+        "designation" : "Clerk",
+        "salary" : 4500,
+        "dateofjoining" : new Date(),
+        "city" : "Delhi"
+    }
+
+    {
+        "Ename" : "Mary",
+        "department" : "support staff",
+        "designation" : "Technical support",
+        "salary" : 5000,
+        "dateofjoining" : new Date(),
+        "city" : "Delhi"
+    }
+
+    {
+        "Ename" : "Matthew",
+        "department" : "management staff",
+        "designation" : "Marketing Executive",
+        "salary" : 18000,
+        "dateofjoining" : new Date(),
+        "city" : "Bangalore"
+    }
+
+
+    {
+        "Ename" : "Susan",
+        "department" : "ops staff",
+        "designation" : "Operations Executive",
+        "salary" : 15000,
+        "dateofjoining" : new Date(),
+        "city" : "Bangalore"
+    }
+
+
+    {
+        "Ename" : "Michael",
+        "department" : "development staff",
+        "designation" : "Developer",
+        "salary" : 20000,
+        "dateofjoining" : new Date(),
+        "city" : "New York"
+    }
+
+    {
+        "Ename" : "Tony",
+        "department" : "development staff",
+        "designation" : "Developer",
+        "salary" : 15000,
+        "dateofjoining" : new Date(),
+        "city" : "Singapore"
+    },
+
+    {
+        "Ename" : "Max",
+        "department" : "logistics staff",
+        "designation" : "Logistic Officer",
+        "salary" : 8000,
+        "dateofjoining" : new Date(),
+        "city" : "California"
+    }
+
+    {
+        "Ename" : "Stanley",
+        "department" : "clerical staff",
+        "designation" : "Clerk",
+        "salary" : 4000,
+        "dateofjoining":new Date(),
+        "city" : "California"
+    },
+
+    {
+        "Ename" : "Maya",
+        "department" : "support staff",
+        "designation" : "Junior Technical Support",
+        "salary" : 6000,
+        "dateofjoining":new Date(),
+        "city" : "New York"
+    },
+    {
+        "Ename" : "Lisa",
+        "department" : "ops staff",
+        "designation" : "Junior Operations",
+        "salary" 6500: ,
+        "dateofjoining": new Date(),
+        "city" : "Singapore"
+    }
+]
+);
